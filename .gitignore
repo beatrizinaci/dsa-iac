@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+*.log
+
+# Docker
+*.pid
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# Misc
+*.swp
+*.swo
+
+# Environment variables (dotenv)
+.env
+.env.*
+!.env.example
+!.env*.example
+*.env.local
+*.env.*.local
+
